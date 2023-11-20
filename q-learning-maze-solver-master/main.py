@@ -82,7 +82,7 @@ def create_q_learning_solver(labyrinth):
 
 def create_labyrinth(agent):
      # Labyrinth map creation
-    file_address = "maps/example_map.txt"
+    file_address = "C:\\Users\\bhave_bwvklsr\\Documents\\Jupyter\\Machine-Learning\\q-learning-maze-solver-master\\maps\\example_map.txt"
     map_file = open(file_address, "r")
     labyrinth = Labyrinth(map_file, agent)
     return labyrinth
